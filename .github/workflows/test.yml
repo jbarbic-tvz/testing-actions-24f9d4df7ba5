@@ -6,7 +6,7 @@ on:
         description: Load json
         default: conf.json
         required: true
-          logLevel:
+      logLevel:
         description: 'Log level'
         required: true
         default: 'warning' 
