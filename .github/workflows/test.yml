@@ -1,5 +1,5 @@
 name: Manual Inputs
-on: 
+on:
   workflow_dispatch:
     inputs:
       version:
@@ -19,6 +19,10 @@ on:
         description: 'True to print to STDOUT'
         required: true 
         type: boolean 
+      print_tags.one:
+        description: 'Look at me'
+        required: true
+        type: boolean
       tags:
         description: 'Test scenario tags'
         required: true 
